@@ -23,10 +23,10 @@ Once you have the minikube running in your local machine you only have follow th
 
 ### Dependencies
 
-To deploy the services to your cluster you must have installed Serverless globally:
+To use serverless with kubeless you need to install the following plugin:
 
 ```
-$ npm install --global serverless-openwhisk
+$ npm install serverless-kubeless
 ```
 
 Once you have it installed, only remain to install the dependencies in the `package.json`:
